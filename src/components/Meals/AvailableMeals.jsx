@@ -11,7 +11,7 @@ const DUMMY_MEALS = [
   },
   {
     id: 'm2',
-    name: 'Salmon Hand Rool',
+    name: 'Salmon Hand Roll',
     description: '1 piece',
     price: 45.5,
   },
