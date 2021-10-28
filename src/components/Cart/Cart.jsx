@@ -9,7 +9,7 @@ const Cart = (props) => {
       description: '1 piece',
       price: 45.5,
     },
-  ].map((item) => <li>{item.name}</li>)
+  ].map((item) => <li key={item.id}>{item.name}</li>)
 
   return (
     <Modal onClose={props.onHideCart}>
